@@ -6,6 +6,6 @@ before_install:
   - sudo apt-get update && sudo apt-get install rubygems
 install:
   - sudo gem install sass
-  - sudo npm install
-  - sudo npm install -g grunt
-  - sudo npm install -g mocha
+  - npm install
+  - npm install -g grunt
+  - npm install -g mocha
