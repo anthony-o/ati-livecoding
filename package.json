@@ -25,5 +25,8 @@
     "grunt-server-mocha": "latest",
     "grunt-nodemon": "latest",
     "matchdep": "latest"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
   }
 }

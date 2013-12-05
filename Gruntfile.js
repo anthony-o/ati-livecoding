@@ -108,4 +108,5 @@ module.exports = function(grunt){
 
     grunt.registerTask('default', []);
     grunt.registerTask('buildcss', ['sass', 'cssc', 'cssmin']);
+    grunt.registerTask('travis', ['htmlhint','sass', 'cssc', 'cssmin', 'uglify','nodemon', "mocha-server"]);
 };
