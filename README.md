@@ -1,4 +1,5 @@
 # Sources des présentations des ATI Live Coding de Iorga
+[![Build Status](https://travis-ci.org/DavidRouyer/ati-livecoding.png?branch=master)](https://travis-ci.org/DavidRouyer/ati-livecoding)
 
 ## Installation
 Installer [NodeJS sur son poste](http://nodejs.org/)
