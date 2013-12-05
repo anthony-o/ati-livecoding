@@ -1,0 +1,5 @@
+<label for="searchRestaurant">Recherche : </label>
+<input id="searchRestaurant" ng-model="query">
+<ul id="listRestaurants">
+    <li ng-repeat="restaurant in restaurants | filter:query"><a href="/restaurant/{{restaurant._id}}">{{restaurant.nom}}</a></li>
+</ul>

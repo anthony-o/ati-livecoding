@@ -1,0 +1,35 @@
+@import 'bootstrap';
+
+body { @extend .container; }
+
+nav {
+    @extend .navbar;
+    @extend .navbar-default;
+    @extend .navbar-fixed-top;
+    div {
+        @extend .container;
+        div {
+            @extend .collapse;
+            @extend .navbar-collapse;
+        }
+        
+    }
+}
+
+nav ul {
+    @extend .nav;
+    @extend .navbar-nav;
+}
+
+#content {
+    @extend .container;
+    padding: 60px 15px 0px;
+}
+
+#listRestaurants {
+    @extend .list-group;
+}
+
+#listRestaurants li {
+    @extend .list-group-item;
+}
